@@ -35,7 +35,22 @@ int main(){
         movimentorainha++;
 
     } while (movimentorainha < 8);
+
+    //movimento cavalo
+
+    int movimentocavalo = 0;
+
+    while(movimentocavalo < 2){
+        for(movimentocavalo = 0; movimentocavalo < 1; movimentocavalo++){
+            printf("\n");
+            printf("movimento cavalo: 2 para cima e 1 para direita.\n");
+            printf("cima \n");
+            printf("cima \n");
+            printf("direita \n");
+           }
         
+        movimentocavalo++;
+    };
         
     return 0;
 }
